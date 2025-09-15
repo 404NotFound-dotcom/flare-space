@@ -1,0 +1,192 @@
+const enTranslation = {
+  common: {
+    appName: "Asha - Disaster Response",
+    loading: "Loading...",
+    save: "Save",
+    cancel: "Cancel",
+    delete: "Delete",
+    edit: "Edit",
+    backToHome: "Back to Home",
+    yes: "Yes",
+    no: "No",
+    success: "Success",
+    error: "Error",
+    warning: "Warning",
+    info: "Information",
+    search: "Search",
+    filter: "Filter",
+    refresh: "Refresh",
+    noData: "No data available"
+  },
+  
+  auth: {
+    loginSuccess: "Login Successful",
+    loginError: "Invalid credentials",
+    logout: "Logout",
+    forgotPassword: "Forgot Password?",
+    resetPassword: "Reset Password",
+    signIn: "Sign In",
+    register: "Register",
+    mobileNumber: "Mobile Number",
+    password: "Password",
+    confirmPassword: "Confirm Password",
+    email: "Email Address",
+    invalidMobile: "Please enter a valid 10-digit mobile number",
+    passwordLength: "Password must be at least 6 characters long"
+  },
+  
+  admin: {
+    dashboard: {
+      title: "Admin Dashboard",
+      overview: "System Overview",
+      activeUsers: "Active Users",
+      shelters: "Shelters",
+      incidents: "Incidents",
+      analytics: "Analytics"
+    },
+    login: {
+      title: "Admin Login",
+      description: "Log in to access the admin control center"
+    }
+  },
+  
+  volunteer: {
+    dashboard: {
+      title: "Volunteer Dashboard",
+      welcome: "Welcome Volunteer",
+      tasks: "Assigned Tasks",
+      schedule: "Your Schedule",
+      notifications: "Notifications",
+      profile: "Volunteer Profile"
+    },
+    login: {
+      title: "Volunteer Login",
+      description: "Enter your mobile number and password to access your dashboard"
+    },
+    tasks: {
+      title: "Available Tasks",
+      assignedTo: "Assigned to you",
+      completed: "Completed",
+      status: "Status",
+      deadline: "Deadline",
+      priority: "Priority",
+      location: "Location",
+      details: "Task Details",
+      accept: "Accept Task"
+    },
+    map: {
+      title: "Mission Map",
+      viewDetails: "View Details",
+      directions: "Get Directions",
+      incidents: "Incidents",
+      shelters: "Shelters",
+      civilians: "Civilians",
+      updateLocation: "Update My Location"
+    },
+    default: "Volunteer",
+    level: "Level {{level}}",
+    taskAccepted: {
+      title: "Accepted",
+      description: "You have accepted the task. Check your assignments for details."
+    },
+    profile: {
+      verified: "Profile verified",
+      rating: "Rating: {{rating}} ({{missions}} missions)"
+    },
+    skills: {
+      firstAid: "First Aid",
+      searchRescue: "Search & Rescue",
+      medicalSupport: "Medical Support",
+      communication: "Communication",
+      navigation: "Navigation",
+      waterRescue: "Water Rescue",
+      logistics: "Logistics",
+      driving: "Driving",
+      cooking: "Cooking"
+    },
+    emergency: {
+      title: "Emergency Contacts",
+      mainNumber: "Emergency Number: {{number}}"
+    },
+    stats: {
+      completed: "Tasks Completed",
+      activeTasks: "Active Tasks",
+      teamMembers: "Team Members",
+      livesHelped: "Lives Helped"
+    },
+    team: {
+      title: "Manage Teams",
+      basicInfo: "Team Information",
+      basicInfoDesc: "Enter the basic details for your new volunteer team.",
+      nameLabel: "Team Name",
+      namePlaceholder: "Enter team name",
+      descriptionLabel: "Description",
+      descriptionPlaceholder: "Describe your team's mission and objectives",
+      typeLabel: "Team Type",
+      typePlaceholder: "Select team type",
+      types: {
+        rescue: "Rescue Team",
+        medical: "Medical Support",
+        logistics: "Logistics & Supply",
+        shelter: "Shelter Management",
+        communication: "Communication"
+      },
+      locationLabel: "Operating Location",
+      locationPlaceholder: "Where will your team operate?",
+      sizeLabel: "Team Size",
+      sizePlaceholder: "Select max team size",
+      openToJoin: "Open for others to join",
+      skills: "Required Skills",
+      skillsDesc: "Select skills that are relevant for your team's mission.",
+      createTeamButton: "Create Team",
+      createButton: "Create",
+      howTeamsWork: "How Teams Work",
+      coordination: "Better Coordination",
+      coordinationDesc: "Teams allow volunteers to coordinate efforts for better impact.",
+      specialization: "Skill Specialization",
+      specializationDesc: "Build teams with complementary skills to tackle complex tasks.",
+      coverage: "Geographic Coverage",
+      coverageDesc: "Organize teams to cover specific areas for more efficient response.",
+      asTeamLeader: "As a team leader, you'll be able to coordinate tasks, invite members, and manage team operations.",
+      findMembers: "Find Team Members",
+      findMembersDesc: "After creating your team, you can:",
+      searchVolunteers: "Search for volunteers with specific skills",
+      inviteVolunteers: "Send invitations to join your team",
+      browsePotentialMembers: "Browse Potential Members",
+      errors: {
+        nameRequired: "Team Name Required",
+        enterTeamName: "Please enter a name for your team.",
+        typeRequired: "Team Type Required",
+        selectTeamType: "Please select a team type."
+      },
+      success: {
+        title: "Team Created",
+        description: "Your volunteer team has been created successfully. Invite members to join."
+      }
+    }
+  },
+  
+  citizen: {
+    dashboard: {
+      title: "Citizen Dashboard",
+      welcome: "Welcome",
+      emergencyContact: "Emergency Contact",
+      nearestShelter: "Nearest Shelter",
+      reportIncident: "Report Incident"
+    },
+    login: {
+      title: "Citizen Login",
+      description: "Enter your mobile number and password to access your dashboard"
+    },
+    incident: {
+      title: "Report an Incident",
+      type: "Incident Type",
+      location: "Location",
+      description: "Description",
+      submit: "Submit Report",
+      uploadPhotos: "Upload Photos"
+    }
+  }
+};
+
+export default enTranslation;

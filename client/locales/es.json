@@ -1,0 +1,250 @@
+{
+  "translation": {
+    "app": {
+      "name": "Asha",
+      "subtitle": "Plataforma de Ayuda en Desastres"
+    },
+    "navigation": {
+      "home": "Inicio",
+      "citizen": "Ciudadano",
+      "volunteer": "Voluntario",
+      "admin": "Administrador",
+      "logout": "Cerrar sesión",
+      "settings": "Configuración"
+    },
+    "roles": {
+      "citizen": {
+        "title": "Ciudadano",
+        "description": "Reporta, encuentra refugios, mantente seguro"
+      },
+      "volunteer": {
+        "title": "Voluntario / Rescate",
+        "description": "Tareas, equipos, navegación"
+      },
+      "admin": {
+        "title": "Administrador",
+        "description": "Centro de control y recursos"
+      }
+    },
+    "common": {
+      "loading": "Cargando...",
+      "user": "Usuario",
+      "offlineMode": "Modo Offline"
+    },
+    "citizen": {
+      "dashboard": {
+        "title": "Panel de Ciudadano"
+      }
+    },
+    "volunteer": {
+      "skills": {
+        "firstAid": "Primeros Auxilios",
+        "searchRescue": "Búsqueda y Rescate",
+        "medicalSupport": "Apoyo Médico",
+        "communication": "Comunicación",
+        "navigation": "Navegación",
+        "waterRescue": "Rescate Acuático",
+        "logistics": "Logística"
+      },
+      "stats": {
+        "completed": "Tareas Completadas",
+        "activeTasks": "Tareas Activas",
+        "teamMembers": "Miembros del Equipo",
+        "livesHelped": "Vidas Ayudadas"
+      },
+      "team": {
+        "createButton": "Crear Nuevo Equipo",
+        "title": "Crear un Equipo de Voluntarios",
+        "description": "Crea un nuevo equipo para colaborar con otros voluntarios en los esfuerzos de ayuda",
+        "nameLabel": "Nombre del Equipo",
+        "namePlaceholder": "Ingrese el nombre del equipo",
+        "purposeLabel": "Propósito del Equipo",
+        "purposePlaceholder": "Describa el propósito del equipo",
+        "locationLabel": "Ubicación Base",
+        "locationPlaceholder": "Ubicación base del equipo",
+        "capacityLabel": "Capacidad del Equipo",
+        "capacityPlaceholder": "Número máximo de miembros",
+        "skillsLabel": "Habilidades Requeridas",
+        "createTeamButton": "Crear Equipo",
+        "success": {
+          "title": "¡Equipo Creado!",
+          "description": "Tu equipo de voluntarios ha sido creado exitosamente"
+        },
+        "errors": {
+          "nameRequired": "Nombre de Equipo Requerido",
+          "enterTeamName": "Por favor ingresa un nombre para tu equipo",
+          "typeRequired": "Tipo de Equipo Requerido",
+          "selectTeamType": "Por favor selecciona un tipo de equipo"
+        }
+      }
+    },
+    "logout": {
+      "title": "Sesión Cerrada",
+      "description": "Has cerrado sesión correctamente"
+    },
+    "dashboard": {
+      "profile": "Perfil",
+      "emergency": "Emergencia",
+      "disasterMap": "Mapa de Respuesta a Desastres",
+      "activeAlerts": "Alertas Activas",
+      "openShelters": "Refugios Abiertos",
+      "activeServices": "Servicios Activos",
+      "quickActions": "Acciones Rápidas",
+      "recentActivity": "Actividad Reciente"
+    },
+    "profile": {
+      "title": "Perfil",
+      "viewUpdate": "Ver y Actualizar Perfil",
+      "verifiedCitizen": "Ciudadano Verificado",
+      "memberSince": "Miembro desde {{date}}",
+      "location": "Ubicación: {{location}}",
+      "personalInfo": "Información Personal",
+      "addressInfo": "Información de Dirección",
+      "medicalInfo": "Información Médica",
+      "save": "Guardar Cambios"
+    },
+    "emergency": {
+      "title": "Emergencia",
+      "mainNumber": "Emergencia: {{number}}",
+      "disasterHelp": "Ayuda en Desastres: {{number}}"
+    },
+    "map": {
+      "title": "Mapa de Respuesta a Desastres",
+      "locateMe": "Localizarme",
+      "heatMap": "Mapa de Calor",
+      "showingSingleLayer": "Mostrando Capa Única",
+      "showingMultipleLayers": "Mostrando Múltiples Capas",
+      "showAll": "Mostrar Todo",
+      "showOnly": "Mostrar solo {{layer}}",
+      "toggleLayer": "Alternar capa {{layer}}",
+      "onlyLayer": "Solo {{layer}}",
+      "layers": {
+        "risk": "Riesgo",
+        "shelters": "Refugios",
+        "services": "Servicios"
+      }
+    },
+    "actions": {
+      "reportEmergency": "Reportar Emergencia",
+      "viewAlerts": "Ver Alertas",
+      "findShelter": "Encontrar Refugio Cercano"
+    },
+    "activity": {
+      "loggedIn": "Sesión iniciada correctamente",
+      "locationEnabled": "Servicios de ubicación habilitados",
+      "preferencesUpdated": "Preferencias de alertas actualizadas"
+    },
+    "auth": {
+      "login": "Iniciar sesión",
+      "register": "Registrarse",
+      "emailAddress": "Correo Electrónico",
+      "password": "Contraseña",
+      "confirmPassword": "Confirmar Contraseña",
+      "forgotPassword": "Olvidé mi Contraseña",
+      "signIn": "Iniciar Sesión",
+      "signUp": "Registrarse"
+    },
+    "language": {
+      "en": "Inglés",
+      "hi": "Hindi",
+      "es": "Español",
+      "select": "Idioma"
+    },
+    "donations": {
+      "title": "Donaciones",
+      "sidebar": {
+        "description": "Apoye los esfuerzos de socorro en desastres con donaciones monetarias o en especie.",
+        "money": "Dinero",
+        "supplies": "Suministros",
+        "donateNow": "Donar Ahora"
+      },
+      "tabs": {
+        "monetary": "Donar Dinero",
+        "camps": "Campamentos de Donación"
+      },
+      "monetary": {
+        "title": "Hacer una Donación",
+        "description": "Su contribución ayuda a proporcionar servicios esenciales a las comunidades afectadas por desastres.",
+        "amountLabel": "Monto de la Donación",
+        "amountPlaceholder": "Ingrese el monto",
+        "nameLabel": "Nombre Completo",
+        "namePlaceholder": "Ingrese su nombre completo",
+        "emailLabel": "Correo Electrónico",
+        "emailPlaceholder": "Ingrese su correo",
+        "phoneLabel": "Número de Teléfono",
+        "phonePlaceholder": "Ingrese su número de teléfono",
+        "donateButton": "Hacer Donación"
+      },
+      "impact": {
+        "title": "Cómo Ayuda Su Donación",
+        "families": {
+          "title": "Apoyar Familias",
+          "description": "Su donación proporciona alimentos, refugio y suministros de emergencia a familias desplazadas."
+        },
+        "medical": {
+          "title": "Ayuda Médica",
+          "description": "Financie suministros médicos críticos y servicios de salud para quienes lo necesitan."
+        },
+        "tax": {
+          "title": "Beneficios Fiscales",
+          "description": "Todas las donaciones son elegibles para beneficios fiscales bajo la Sección 80G."
+        }
+      },
+      "certificate": {
+        "title": "Certificado de Donación",
+        "message": "¡Gracias por su generosa donación! Puede descargar su certificado de donación a continuación.",
+        "downloadButton": "Descargar Certificado",
+        "downloadSuccess": "Certificado Listo",
+        "description": "Su certificado de donación se ha generado con éxito.",
+        "generatingPdf": "Generando PDF...",
+        "downloadError": "Error de Descarga",
+        "downloadErrorMsg": "Hubo un problema al generar su certificado. Por favor, inténtelo de nuevo.",
+        "pdfTitle": "CERTIFICADO DE DONACIÓN",
+        "pdfContent": "Este documento certifica que",
+        "pdfDonation": "ha donado generosamente ₹{{amount}} a los esfuerzos de ayuda en desastres",
+        "pdfDate": "en fecha {{date}}",
+        "pdfThanks": "Su contribución ayuda a proporcionar alivio esencial a las comunidades afectadas por desastres.",
+        "pdfCertId": "ID de Certificado: {{id}}",
+        "pdfSignature": "Firma Autorizada",
+        "pdfStamp": "Sello Oficial"
+      },
+      "camps": {
+        "title": "Campamentos de Donación Cercanos",
+        "description": "Encuentre campamentos de donación cerca de usted donde puede dejar suministros y materiales.",
+        "itemsNeeded": "Artículos Necesarios",
+        "timings": "Horarios",
+        "directionsButton": "Obtener Direcciones",
+        "locations": {
+          "central": {
+            "name": "Centro de Ayuda Central",
+            "address": "123 Calle Principal, Delhi Central",
+            "items": "Ropa, Mantas, Alimentos no perecederos",
+            "timing": "9:00 AM - 6:00 PM"
+          },
+          "sports": {
+            "name": "Campamento de Ayuda del Complejo Deportivo",
+            "address": "45 Calle del Estadio, Delhi Este",
+            "items": "Botellas de agua, Suministros médicos, Productos para bebés",
+            "timing": "8:00 AM - 8:00 PM"
+          },
+          "school": {
+            "name": "Centro de Recolección de la Escuela Pública",
+            "address": "78 Calle de la Educación, Delhi Sur",
+            "items": "Libros, Útiles escolares, Kits de higiene",
+            "timing": "10:00 AM - 5:00 PM"
+          }
+        }
+      },
+      "errors": {
+        "invalidAmount": "Monto Inválido",
+        "enterValidAmount": "Por favor ingrese un monto de donación válido.",
+        "invalidName": "Nombre Requerido",
+        "enterName": "Por favor ingrese su nombre para el certificado de donación."
+      },
+      "success": {
+        "title": "¡Gracias por Su Donación!",
+        "description": "Su donación de ₹{{amount}} ha sido recibida con éxito."
+      }
+    }
+  }
+}

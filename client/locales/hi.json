@@ -1,0 +1,250 @@
+{
+  "translation": {
+    "app": {
+      "name": "आशा",
+      "subtitle": "आपदा राहत प्लेटफॉर्म"
+    },
+    "navigation": {
+      "home": "होम",
+      "citizen": "नागरिक",
+      "volunteer": "स्वयंसेवक",
+      "admin": "प्रशासक",
+      "logout": "लॉगआउट",
+      "settings": "सेटिंग्स"
+    },
+    "roles": {
+      "citizen": {
+        "title": "नागरिक",
+        "description": "रिपोर्ट करें, आश्रय खोजें, सुरक्षित रहें"
+      },
+      "volunteer": {
+        "title": "स्वयंसेवक / बचाव",
+        "description": "कार्य, टीम, नेविगेशन"
+      },
+      "admin": {
+        "title": "प्रशासक",
+        "description": "नियंत्रण केंद्र और संसाधन"
+      }
+    },
+    "common": {
+      "loading": "लोड हो रहा है...",
+      "user": "उपयोगकर्ता",
+      "offlineMode": "ऑफलाइन मोड"
+    },
+    "citizen": {
+      "dashboard": {
+        "title": "नागरिक डैशबोर्ड"
+      }
+    },
+    "volunteer": {
+      "skills": {
+        "firstAid": "प्राथमिक चिकित्सा",
+        "searchRescue": "खोज और बचाव",
+        "medicalSupport": "चिकित्सा सहायता",
+        "communication": "संचार",
+        "navigation": "नेविगेशन",
+        "waterRescue": "जल बचाव",
+        "logistics": "रसद"
+      },
+      "stats": {
+        "completed": "पूर्ण कार्य",
+        "activeTasks": "सक्रिय कार्य",
+        "teamMembers": "टीम सदस्य",
+        "livesHelped": "मदद की गई जीवन"
+      },
+      "team": {
+        "createButton": "नई टीम बनाएं",
+        "title": "स्वयंसेवक टीम बनाएं",
+        "description": "राहत कार्यों पर अन्य स्वयंसेवकों के साथ सहयोग करने के लिए एक नई टीम बनाएं",
+        "nameLabel": "टीम का नाम",
+        "namePlaceholder": "टीम का नाम दर्ज करें",
+        "purposeLabel": "टीम का उद्देश्य",
+        "purposePlaceholder": "टीम के उद्देश्य का वर्णन करें",
+        "locationLabel": "आधार स्थान",
+        "locationPlaceholder": "टीम का आधार स्थान",
+        "capacityLabel": "टीम की क्षमता",
+        "capacityPlaceholder": "अधिकतम सदस्य संख्या",
+        "skillsLabel": "आवश्यक कौशल",
+        "createTeamButton": "टीम बनाएं",
+        "success": {
+          "title": "टीम बन गई है!",
+          "description": "आपकी स्वयंसेवक टीम सफलतापूर्वक बना दी गई है"
+        },
+        "errors": {
+          "nameRequired": "टीम का नाम आवश्यक है",
+          "enterTeamName": "कृपया अपनी टीम के लिए एक नाम दर्ज करें",
+          "typeRequired": "टीम का प्रकार आवश्यक है",
+          "selectTeamType": "कृपया एक टीम प्रकार चुनें"
+        }
+      }
+    },
+    "logout": {
+      "title": "लॉगआउट हो गया",
+      "description": "आप सफलतापूर्वक लॉगआउट हो गए हैं"
+    },
+    "dashboard": {
+      "profile": "प्रोफाइल",
+      "emergency": "आपातकाल",
+      "disasterMap": "आपदा प्रतिक्रिया मानचित्र",
+      "activeAlerts": "सक्रिय अलर्ट",
+      "openShelters": "खुले आश्रय",
+      "activeServices": "सक्रिय सेवाएं",
+      "quickActions": "त्वरित कार्य",
+      "recentActivity": "हाल की गतिविधि"
+    },
+    "profile": {
+      "title": "प्रोफाइल",
+      "viewUpdate": "प्रोफ़ाइल देखें और अपडेट करें",
+      "verifiedCitizen": "सत्यापित नागरिक",
+      "memberSince": "{{date}} से सदस्य",
+      "location": "स्थान: {{location}}",
+      "personalInfo": "व्यक्तिगत जानकारी",
+      "addressInfo": "पता जानकारी",
+      "medicalInfo": "चिकित्सा जानकारी",
+      "save": "परिवर्तन सहेजें"
+    },
+    "emergency": {
+      "title": "आपातकाल",
+      "mainNumber": "आपातकाल: {{number}}",
+      "disasterHelp": "आपदा सहायता: {{number}}"
+    },
+    "map": {
+      "title": "आपदा प्रतिक्रिया मानचित्र",
+      "locateMe": "मुझे खोजें",
+      "heatMap": "हीट मैप",
+      "showingSingleLayer": "एकल परत दिखा रहा है",
+      "showingMultipleLayers": "कई परतें दिखा रहा है",
+      "showAll": "सभी दिखाएं",
+      "showOnly": "केवल {{layer}} दिखाएं",
+      "toggleLayer": "{{layer}} परत टॉगल करें",
+      "onlyLayer": "केवल {{layer}}",
+      "layers": {
+        "risk": "जोखिम",
+        "shelters": "आश्रय",
+        "services": "सेवाएँ"
+      }
+    },
+    "actions": {
+      "reportEmergency": "आपातकाल की सूचना दें",
+      "viewAlerts": "अलर्ट देखें",
+      "findShelter": "निकटतम आश्रय खोजें"
+    },
+    "activity": {
+      "loggedIn": "सफलतापूर्वक लॉगिन किया",
+      "locationEnabled": "स्थान सेवाएं सक्षम",
+      "preferencesUpdated": "अलर्ट प्राथमिकताएं अपडेट की गईं"
+    },
+    "auth": {
+      "login": "लॉगिन",
+      "register": "रजिस्टर",
+      "emailAddress": "ईमेल पता",
+      "password": "पासवर्ड",
+      "confirmPassword": "पासवर्ड की पुष्टि करें",
+      "forgotPassword": "पासवर्ड भूल गए",
+      "signIn": "साइन इन करें",
+      "signUp": "साइन अप करें"
+    },
+    "language": {
+      "en": "अंग्रेज़ी",
+      "hi": "हिंदी",
+      "es": "स्पेनिश",
+      "select": "भाषा"
+    },
+    "donations": {
+      "title": "दान",
+      "sidebar": {
+        "description": "आपदा राहत प्रयासों का मौद्रिक या वस्तु रूप में दान के साथ समर्थन करें।",
+        "money": "पैसा",
+        "supplies": "सामग्री",
+        "donateNow": "अभी दान करें"
+      },
+      "tabs": {
+        "monetary": "पैसा दान करें",
+        "camps": "दान शिविर"
+      },
+      "monetary": {
+        "title": "दान करें",
+        "description": "आपका योगदान आपदा प्रभावित समुदायों को आवश्यक सेवाएं प्रदान करने में मदद करता है।",
+        "amountLabel": "दान राशि",
+        "amountPlaceholder": "राशि दर्ज करें",
+        "nameLabel": "पूरा नाम",
+        "namePlaceholder": "अपना पूरा नाम दर्ज करें",
+        "emailLabel": "ईमेल पता",
+        "emailPlaceholder": "अपना ईमेल दर्ज करें",
+        "phoneLabel": "फोन नंबर",
+        "phonePlaceholder": "अपना फोन नंबर दर्ज करें",
+        "donateButton": "दान करें"
+      },
+      "impact": {
+        "title": "आपका दान कैसे मदद करता है",
+        "families": {
+          "title": "परिवारों का समर्थन",
+          "description": "आपका दान विस्थापित परिवारों को भोजन, आश्रय और आपातकालीन आपूर्ति प्रदान करता है।"
+        },
+        "medical": {
+          "title": "चिकित्सा सहायता",
+          "description": "जरूरतमंदों के लिए महत्वपूर्ण चिकित्सा आपूर्ति और स्वास्थ्य सेवाओं का वित्तपोषण करें।"
+        },
+        "tax": {
+          "title": "कर लाभ",
+          "description": "सभी दान धारा 80G के तहत कर लाभ के लिए पात्र हैं।"
+        }
+      },
+      "certificate": {
+        "title": "दान प्रमाणपत्र",
+        "message": "आपके उदार दान के लिए धन्यवाद! आप नीचे अपना दान प्रमाणपत्र डाउनलोड कर सकते हैं।",
+        "downloadButton": "प्रमाणपत्र डाउनलोड करें",
+        "downloadSuccess": "प्रमाणपत्र तैयार",
+        "description": "आपका दान प्रमाणपत्र सफलतापूर्वक जनरेट किया गया है।",
+        "generatingPdf": "पीडीएफ जनरेट हो रहा है...",
+        "downloadError": "डाउनलोड त्रुटि",
+        "downloadErrorMsg": "आपका प्रमाणपत्र जनरेट करने में समस्या थी। कृपया पुन: प्रयास करें।",
+        "pdfTitle": "दान प्रमाणपत्र",
+        "pdfContent": "यह प्रमाणित किया जाता है कि",
+        "pdfDonation": "ने आपदा राहत प्रयासों के लिए ₹{{amount}} का उदारतापूर्वक दान दिया है",
+        "pdfDate": "दिनांक {{date}} को",
+        "pdfThanks": "आपका योगदान आपदा प्रभावित समुदायों को आवश्यक राहत प्रदान करने में मदद करता है।",
+        "pdfCertId": "प्रमाणपत्र आईडी: {{id}}",
+        "pdfSignature": "अधिकृत हस्ताक्षर",
+        "pdfStamp": "आधिकारिक मोहर"
+      },
+      "camps": {
+        "title": "आस-पास के दान शिविर",
+        "description": "अपने आसपास दान शिविर खोजें जहां आप आपूर्ति और सामग्री छोड़ सकते हैं।",
+        "itemsNeeded": "आवश्यक वस्तुएं",
+        "timings": "समय",
+        "directionsButton": "दिशा-निर्देश प्राप्त करें",
+        "locations": {
+          "central": {
+            "name": "केंद्रीय राहत केंद्र",
+            "address": "123 मुख्य मार्ग, मध्य दिल्ली",
+            "items": "कपड़े, कंबल, गैर-नाशवान भोजन",
+            "timing": "सुबह 9:00 - शाम 6:00"
+          },
+          "sports": {
+            "name": "खेल परिसर राहत शिविर",
+            "address": "45 स्टेडियम रोड, पूर्वी दिल्ली",
+            "items": "पानी की बोतलें, चिकित्सा आपूर्ति, शिशु उत्पाद",
+            "timing": "सुबह 8:00 - रात 8:00"
+          },
+          "school": {
+            "name": "पब्लिक स्कूल संग्रह केंद्र",
+            "address": "78 शिक्षा लेन, दक्षिण दिल्ली",
+            "items": "किताबें, स्कूल आपूर्ति, स्वच्छता किट",
+            "timing": "सुबह 10:00 - शाम 5:00"
+          }
+        }
+      },
+      "errors": {
+        "invalidAmount": "अमान्य राशि",
+        "enterValidAmount": "कृपया एक वैध दान राशि दर्ज करें।",
+        "invalidName": "नाम आवश्यक है",
+        "enterName": "कृपया दान प्रमाणपत्र के लिए अपना नाम दर्ज करें।"
+      },
+      "success": {
+        "title": "आपके दान के लिए धन्यवाद!",
+        "description": "आपका ₹{{amount}} का दान सफलतापूर्वक प्राप्त हो गया है।"
+      }
+    }
+  }
+}

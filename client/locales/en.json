@@ -1,0 +1,286 @@
+{
+  "translation": {
+    "app": {
+      "name": "Asha",
+      "subtitle": "Disaster Relief Platform"
+    },
+    "navigation": {
+      "home": "Home",
+      "citizen": "Citizen",
+      "volunteer": "Volunteer",
+      "admin": "Admin",
+      "logout": "Logout",
+      "settings": "Settings",
+      "backToDashboard": "Back to Dashboard"
+    },
+    "roles": {
+      "citizen": {
+        "title": "Citizen",
+        "description": "Report, find shelters, stay safe"
+      },
+      "volunteer": {
+        "title": "Volunteer / Rescue",
+        "description": "Tasks, teams, navigation"
+      },
+      "admin": {
+        "title": "Administrator",
+        "description": "Control center & resources"
+      }
+    },
+    "common": {
+      "loading": "Loading...",
+      "saving": "Saving...",
+      "user": "User",
+      "offlineMode": "Offline Mode"
+    },
+    "citizen": {
+      "dashboard": {
+        "title": "Citizen Dashboard"
+      }
+    },
+    "volunteer": {
+      "skills": {
+        "firstAid": "First Aid",
+        "searchRescue": "Search & Rescue",
+        "medicalSupport": "Medical Support",
+        "communication": "Communication",
+        "navigation": "Navigation",
+        "waterRescue": "Water Rescue",
+        "logistics": "Logistics"
+      },
+      "stats": {
+        "completed": "Tasks Completed",
+        "activeTasks": "Active Tasks",
+        "teamMembers": "Team Members",
+        "livesHelped": "Lives Helped"
+      },
+      "team": {
+        "createButton": "Create New Team",
+        "title": "Create a Volunteer Team",
+        "description": "Create a new team to collaborate with other volunteers on relief efforts",
+        "nameLabel": "Team Name",
+        "namePlaceholder": "Enter team name",
+        "purposeLabel": "Team Purpose",
+        "purposePlaceholder": "Describe the team's purpose",
+        "locationLabel": "Base Location",
+        "locationPlaceholder": "Team's base location",
+        "capacityLabel": "Team Capacity",
+        "capacityPlaceholder": "Maximum number of members",
+        "skillsLabel": "Required Skills",
+        "createTeamButton": "Create Team",
+        "success": {
+          "title": "Team Created!",
+          "description": "Your volunteer team has been created successfully"
+        },
+        "errors": {
+          "nameRequired": "Team Name Required",
+          "enterTeamName": "Please enter a name for your team",
+          "typeRequired": "Team Type Required",
+          "selectTeamType": "Please select a team type"
+        }
+      }
+    },
+    "logout": {
+      "title": "Logged Out",
+      "description": "You have been successfully logged out"
+    },
+    "dashboard": {
+      "profile": "Profile",
+      "emergency": "Emergency",
+      "disasterMap": "Disaster Response Map",
+      "activeAlerts": "Active Alerts",
+      "openShelters": "Open Shelters",
+      "activeServices": "Active Services",
+      "quickActions": "Quick Actions",
+      "recentActivity": "Recent Activity"
+    },
+    "profile": {
+      "title": "Profile",
+      "myProfile": "My Profile",
+      "viewUpdate": "View & Update Profile",
+      "verifiedCitizen": "Verified Citizen",
+      "activeMember": "Active Member",
+      "memberSince": "Member since {{date}}",
+      "location": "Location: {{location}}",
+      "personalInfo": "Personal Information",
+      "addressInfo": "Address Information",
+      "medicalInfo": "Medical Information",
+      "save": "Save Changes",
+      "editProfile": "Edit Profile",
+      "cancelEditing": "Cancel Editing",
+      "updateSuccess": {
+        "title": "Profile Updated",
+        "description": "Your profile information has been updated successfully"
+      },
+      "fields": {
+        "fullName": "Full Name",
+        "mobileNumber": "Mobile Number",
+        "email": "Email Address",
+        "emergencyContact": "Emergency Contact",
+        "streetAddress": "Street Address",
+        "city": "City",
+        "state": "State",
+        "pincode": "PIN Code",
+        "bloodGroup": "Blood Group",
+        "allergies": "Allergies",
+        "medicalConditions": "Medical Conditions"
+      },
+      "placeholders": {
+        "fullName": "Enter your full name",
+        "mobileNumber": "Enter your mobile number",
+        "email": "Enter your email address",
+        "emergencyContact": "Emergency contact number",
+        "streetAddress": "Enter your street address",
+        "city": "Enter your city",
+        "state": "Enter your state",
+        "pincode": "Enter your PIN code",
+        "bloodGroup": "Your blood group",
+        "allergies": "List any allergies you have",
+        "medicalConditions": "List any medical conditions"
+      }
+    },
+    "emergency": {
+      "title": "Emergency",
+      "mainNumber": "Emergency: {{number}}",
+      "disasterHelp": "Disaster Help: {{number}}"
+    },
+    "map": {
+      "title": "Disaster Response Map",
+      "locateMe": "Locate Me",
+      "heatMap": "Heat Map",
+      "showingSingleLayer": "Showing Single Layer",
+      "showingMultipleLayers": "Showing Multiple Layers",
+      "showAll": "Show All",
+      "showOnly": "Show only {{layer}}",
+      "toggleLayer": "Toggle {{layer}} layer",
+      "onlyLayer": "Only {{layer}}",
+      "layers": {
+        "risk": "Risk",
+        "shelters": "Shelters",
+        "services": "Services"
+      }
+    },
+    "actions": {
+      "reportEmergency": "Report Emergency",
+      "viewAlerts": "View Alerts",
+      "findShelter": "Find Nearest Shelter"
+    },
+    "activity": {
+      "loggedIn": "Successfully logged in",
+      "locationEnabled": "Location services enabled",
+      "preferencesUpdated": "Alert preferences updated"
+    },
+    "auth": {
+      "login": "Login",
+      "register": "Register",
+      "emailAddress": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "forgotPassword": "Forgot Password",
+      "signIn": "Sign In",
+      "signUp": "Sign Up"
+    },
+    "language": {
+      "en": "English",
+      "hi": "Hindi",
+      "es": "Spanish",
+      "select": "Language"
+    },
+    "donations": {
+      "title": "Donations",
+      "sidebar": {
+        "description": "Support disaster relief efforts with monetary or in-kind donations.",
+        "money": "Money",
+        "supplies": "Supplies",
+        "donateNow": "Donate Now"
+      },
+      "tabs": {
+        "monetary": "Donate Money",
+        "camps": "Donation Camps"
+      },
+      "monetary": {
+        "title": "Make a Donation",
+        "description": "Your contribution helps provide essential services to disaster-affected communities.",
+        "amountLabel": "Donation Amount",
+        "amountPlaceholder": "Enter amount",
+        "nameLabel": "Full Name",
+        "namePlaceholder": "Enter your full name",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "Enter your email",
+        "phoneLabel": "Phone Number",
+        "phonePlaceholder": "Enter your phone number",
+        "donateButton": "Make Donation"
+      },
+      "impact": {
+        "title": "How Your Donation Helps",
+        "families": {
+          "title": "Support Families",
+          "description": "Your donation provides food, shelter, and emergency supplies to displaced families."
+        },
+        "medical": {
+          "title": "Medical Aid",
+          "description": "Fund critical medical supplies and healthcare services for those in need."
+        },
+        "tax": {
+          "title": "Tax Benefits",
+          "description": "All donations are eligible for tax benefits under Section 80G."
+        }
+      },
+      "certificate": {
+        "title": "Donation Certificate",
+        "message": "Thank you for your generous donation! You can download your donation certificate below.",
+        "downloadButton": "Download Certificate",
+        "downloadSuccess": "Certificate Ready",
+        "description": "Your donation certificate has been generated successfully.",
+        "generatingPdf": "Generating PDF...",
+        "downloadError": "Download Error",
+        "downloadErrorMsg": "There was a problem generating your certificate. Please try again.",
+        "pdfTitle": "DONATION CERTIFICATE",
+        "pdfContent": "This is to certify that",
+        "pdfDonation": "has generously donated ₹{{amount}} to the disaster relief efforts",
+        "pdfDate": "on {{date}}",
+        "pdfThanks": "Your contribution helps provide essential relief to disaster-affected communities.",
+        "pdfCertId": "Certificate ID: {{id}}",
+        "pdfSignature": "Authorized Signature",
+        "pdfStamp": "Official Stamp"
+      },
+      "camps": {
+        "title": "Nearby Donation Camps",
+        "description": "Find donation camps near you where you can drop off supplies and materials.",
+        "itemsNeeded": "Items Needed",
+        "timings": "Timings",
+        "directionsButton": "Get Directions",
+        "locations": {
+          "central": {
+            "name": "Central Relief Center",
+            "address": "123 Main Street, Central Delhi",
+            "items": "Clothing, Blankets, Non-perishable food",
+            "timing": "9:00 AM - 6:00 PM"
+          },
+          "sports": {
+            "name": "Sports Complex Relief Camp",
+            "address": "45 Stadium Road, East Delhi",
+            "items": "Water bottles, Medical supplies, Baby products",
+            "timing": "8:00 AM - 8:00 PM"
+          },
+          "school": {
+            "name": "Public School Collection Center",
+            "address": "78 Education Lane, South Delhi",
+            "items": "Books, School supplies, Hygiene kits",
+            "timing": "10:00 AM - 5:00 PM"
+          }
+        }
+      },
+      "errors": {
+        "invalidAmount": "Invalid Amount",
+        "enterValidAmount": "Please enter a valid donation amount.",
+        "invalidName": "Name Required",
+        "enterName": "Please enter your name for the donation certificate."
+      },
+      "success": {
+        "title": "Thank You for Your Donation!",
+        "description": "Your donation of ₹{{amount}} has been received successfully."
+      }
+    }
+  }
+}

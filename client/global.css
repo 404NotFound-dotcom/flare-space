@@ -1,0 +1,132 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   */
+  :root {
+    /* Core palette */
+    --background: 210 37% 96%; /* #F0F4F8 */
+    --foreground: 0 0% 20%; /* #333333 */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
+
+    --primary: 201 100% 35%; /* #0077B6 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 190 75% 75%; /* #90E0EF */
+    --secondary-foreground: 214 97% 27%; /* #023E8A */
+
+    --muted: 210 36% 92%;
+    --muted-foreground: 217 16% 47%;
+
+    --accent: 354 100% 65%; /* #FF4B5C */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 354 100% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 29% 86%;
+    --input: 210 29% 86%;
+    --ring: 214 97% 27%; /* #023E8A */
+
+    --radius: 0.75rem;
+
+    /* Sidebar (admin) */
+    --sidebar-background: 210 37% 96%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 201 100% 35%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 190 75% 90%;
+    --sidebar-accent-foreground: 214 97% 27%;
+    --sidebar-border: 210 29% 86%;
+    --sidebar-ring: 214 97% 27%;
+
+    /* Extra tokens */
+    --heading: 214 97% 27%; /* #023E8A */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 6.5%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 6.5%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 201 100% 45%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 190 75% 35%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 354 100% 55%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 201 100% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 217.2 32.6% 17.5%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --heading: 210 40% 98%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body, #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased font-sans;
+    font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, Segoe UI,
+      Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: hsl(var(--heading));
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .btn-gradient {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-[#00B4D8] to-[#0096C7] px-6 py-3 text-white uppercase tracking-wider shadow-md transition-all hover:-translate-y-0.5 hover:shadow-xl;
+  }
+  .card-hover {
+    @apply transition-all hover:-translate-y-0.5 hover:shadow-lg hover:border-primary;
+  }
+  .bg-home-gradient {
+    @apply bg-gradient-to-br from-[#90E0EF] to-[#F0F4F8];
+  }
+}
